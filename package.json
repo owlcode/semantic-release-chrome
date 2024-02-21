@@ -1,8 +1,8 @@
 {
-  "name": "semantic-release-chrome",
-  "version": "0.0.0-development",
+  "name": "@owlcode/semantic-release-chrome",
+  "version": "1.0.0",
   "exports": "./dist/index.js",
-  "author": "Gabriel Duarte (https://www.gabrielduarte.dev)",
+  "author": "Dawid Sowa (https://www.dawidsowa.pl)",
   "license": "MIT",
   "description": "Set of semantic-release plugins for publishing a Chrome extension release",
   "engines": {
