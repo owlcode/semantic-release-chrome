@@ -1,7 +1,7 @@
 import SemanticReleaseError from '@semantic-release/error'
 import archiver from 'archiver'
 import { readJsonSync, writeJsonSync } from 'fs-extra'
-import template from 'lodash.template'
+import { template } from 'lodash'
 
 import { createWriteStream } from 'fs'
 import { resolve } from 'path'

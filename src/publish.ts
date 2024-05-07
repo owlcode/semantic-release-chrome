@@ -1,7 +1,7 @@
 import SemanticReleaseError from '@semantic-release/error'
 import { createReadStream } from 'fs-extra'
 import { Context } from 'semantic-release'
-import template from 'lodash.template'
+import { template } from 'lodash'
 
 import type PluginConfig from './@types/pluginConfig'
 import getEsModule from './getEsModule'
